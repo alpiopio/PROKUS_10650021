@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost
--- Generation Time: Apr 30, 2013 at 04:13 AM
+-- Generation Time: May 01, 2013 at 08:08 AM
 -- Server version: 5.5.16
 -- PHP Version: 5.3.8
 
@@ -19,20 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `paypal`
 --
-
--- --------------------------------------------------------
-
---
--- Table structure for table `order`
---
-
-CREATE TABLE IF NOT EXISTS `order` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `transaction-id` varchar(125) NOT NULL,
-  `time` date NOT NULL,
-  `product-id` int(11) NOT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
